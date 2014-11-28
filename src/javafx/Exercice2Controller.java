@@ -35,6 +35,7 @@ public class Exercice2Controller implements Initializable {
         JOptionPane.showMessageDialog(null, maxime, "Titre", JOptionPane.INFORMATION_MESSAGE);
         
         // Avec Java.fx
+        
     }
     
     /**
