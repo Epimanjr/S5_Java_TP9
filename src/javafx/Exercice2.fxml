@@ -10,7 +10,7 @@
 
 <AnchorPane id="AnchorPane" prefHeight="68.0" prefWidth="520.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="javafx.Exercice2Controller">
    <children>
-      <TextField id="saisie" layoutX="14.0" layoutY="21.0" prefHeight="25.0" prefWidth="426.0" />
-      <Button id="btBonjour" layoutX="447.0" layoutY="21.0" mnemonicParsing="false" text="Bonjour!" onAction="#direBonjour"  />
+      <TextField fx:id="saisie" layoutX="14.0" layoutY="21.0" prefHeight="25.0" prefWidth="426.0" onAction="#direBonjour"  />
+      <Button fx:id="btBonjour" layoutX="447.0" layoutY="21.0" mnemonicParsing="false" text="Bonjour!" onAction="#direBonjour"  />
    </children>
 </AnchorPane>

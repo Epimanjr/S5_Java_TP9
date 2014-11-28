@@ -11,6 +11,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
+import javax.swing.JOptionPane;
 
 /**
  * FXML Controller class
@@ -26,8 +27,14 @@ public class Exercice2Controller implements Initializable {
     private TextField saisie;
     
     public void direBonjour() {
-        String maxime = saisie.
+        // Récupération du message
+        String maxime = saisie.getText();
         System.out.println(maxime);
+        
+        // Avec Javax.swing
+        JOptionPane.showMessageDialog(null, maxime, "Titre", JOptionPane.INFORMATION_MESSAGE);
+        
+        // Avec Java.fx
     }
     
     /**
